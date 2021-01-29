@@ -1,0 +1,175 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10.7pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{geometry} % For margins
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+%\addtolength{\voffset}{-1cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+\newgeometry{bottom=0.4cm,top=3cm}
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Taha \textsc{Shaikh}}\bigskip\par} % Your name
+
+\section{Contact Information}
+
+\begin{tabular}{rl}
+
+\textsc{Email:} & \href{mailto:taha19@vt.edu}{taha19@vt.edu} \\
+\textsc{Website:} & \href{t-aha.github.io}{t-aha.github.io} \\
+\textsc{Phone:} & +1 804 528 9318\\
+
+\end{tabular} \\
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+
+\textsc{May} 2023& Bachelor's of Science Degree in \textsc{}\textsc{Computer Engineering \& Mathematics} \\
+& \small\emph{Calhoun Scholar \& Honors} graduating in 2023, \normalsize\textbf{Virginia Tech}, Blacksburg\\
+& Full merit scholarship, emphasis on transdisciplinary learning \\ \\
+
+%------------------------------------------------
+
+\textsc{June} 2019 & Dual Enrollment Courses at \textbf{Virginia Commonwealth University}\\
+& Completed 7 dual-enrollment courses for college credit, including \\
+& Multivariable Calculus, Linear Algebra and Mathematical Reasoning\\
+
+\end{tabular} \\
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+
+\textsc{Sep 2020 - present} & Workforce Development Program Research Student at \textsc{MITRE} \emph{}\\
+& \footnotesize{Collaborated with MITRE and the Hume Center at Virginia Tech to design maritime remote sensing and machine learning applications for Naval and Central Intelligence.
+}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{May 2020 - Aug 2020} & Data Engineer at \textsc{Ithena}, Innsbrook \emph{}\\
+& \footnotesize{Analyzed thermal camera data to prevent the spread of COVID-19 in an office setting and created visualizations for contact tracing. Developed communication protocols for IoT devices using MQTT.
+}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jul 2015 - Sep 2019} & Data Analyst and App Developer at \textsc{Innsbrook Foundation}, Glen Allen \emph{}\\
+& \footnotesize{Designed and created “\emph{Innsbrook Events}” App  for Innsbrook Foundation  enabling the foundation to connect to more than 200,000 members of the community. Analyzed data regarding concert attendance to assist the foundation using statistical models.
+}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jun 2018 - Aug 2018} & Summer Intern at \textsc{Yayasan Mendaki}, Singapore \emph{}\\
+& \footnotesize{Attended paid internship at Mendaki, a non-proﬁt organization whose mission is to empower the bottom 30\% of Singapore through quality education. Provided statistical analyses and mathematical models to best allocate school resources and funds.
+}\\
+\multicolumn{2}{c}{} \\
+
+%-----------------------------------------------
+
+\end{tabular}
+
+\footnotesize References available upon request.\normalsize
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+\begin{tabular}{rl}
+\vspace{1mm}
+Basic Knowledge: & C++, MatLab, Java, HTML, JQuery, Swift, {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+Advanced Knowledge: & Wolfram Mathematica, Python, LMMS, Microsoft Excel\\
+\end{tabular} \\
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Scholarships and Awards}
+
+\begin{tabular}{rl}
+\vspace{1mm}
+\textsc{Aug} 2019 & Calhoun Discovery Program Scholarship \footnotesize(full tuition + \$10,000 learning grant)\normalsize \\
+\vspace{1mm}
+\textsc{May} 2019 & National Piano Guild Advanced Bach Award \footnotesize(of 16 nationally)\normalsize \\
+\vspace{1mm}
+\textsc{Apr} 2019 & Exhibition in International Bridges Math-Art Conference \\
+\vspace{1mm}
+\textsc{Mar} 2019 & International Finalist in COMAP Mathematical Contest in Modeling \\
+\vspace{1mm}
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+\vspace{1mm}
+Programming, Cryptoeconomics, Machine Learning, Algorithmic Trading\\
+\href{https://soundcloud.com/synapseproxy}{Audio Production}, Piano Performance, Hiking, Bhangra
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
